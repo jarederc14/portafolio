@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Jared Rosales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index-style.css">
+</head>
+
+<body>
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Jared Rosales</a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/portafolio/index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/portafolio/pages/proyectos.html">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/portafolio/pages/Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <main>
+        <section class="presentacion">
+            <h2>Sobre mí</h2>
+            <p>Soy un desarrollador de software apasionado por la creación de soluciones tecnológicas eficientes y escalables. Con experiencia tanto en frontend como en backend, me especializo en construir aplicaciones web completas desde la idea inicial hasta su despliegue.</p>
+            <img src="img/perfilpro.jpeg" alt="Foto de perfil profesional">
+        </section>
+
+        <section id="habilidades" class="habilidades">
+            <h2>Mis Habilidades</h2>
+            <p class="descripcion">
+                Estas son algunas de las áreas en las que tengo experiencia.
+            </p>
+            <div class="contenedor-cards">
+                <div class="card">
+                    <h3>HTML y CSS</h3>
+                    <p>Sólida experiencia en la maquetación de sitios web semánticos con HTML5 y en el diseño de interfaces responsive y modernas con CSS3.</p>
+                </div>
+                <div class="card">
+                    <h3>Javascript</h3>
+                    <p>Capacidad para crear interfaces de usuario interactivas y dinámicas en el frontend, así como para construir la lógica del servidor en el backend utilizando Node.js.</p>
+                </div>
+                <div class="card">
+                    <h3>Python</h3>
+                    <p>Experiencia en el desarrollo de aplicaciones backend con Python, incluyendo la creación de APIs RESTful para construir aplicaciones web robustas y escalables.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificados" class="flip-section">
+            <h2>Mis Certificados</h2>
+            <p>Aquí puedes encontrar algunas de las certificaciones que he obtenido, las cuales validan mis conocimientos y mi compromiso con el desarrollo profesional.</p>
+            <div class="flip-contenedor">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado en Ingeniería de Software</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/certificado.jpeg" alt="Certificado en Ingeniería de Software">
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado de Desarrollo Web</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/certificado.jpeg" alt="Certificado de Desarrollo Web">
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado en Bases de Datos</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/certificado.jpeg" alt="Certificado en Bases de Datos">
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado de Python Avanzado</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/certificado.jpeg" alt="Certificado de Python Avanzado">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="footer-contacto">
+                <h3>Contacto</h3>
+                <p>Email: 1681411@senati.pe </p>
+                <p>Telefono: +51 910614072</p>
+                <p>Ubicación: Lima, Perú</p>
+            </div>
+            <div class="footer-nav">
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copy">
+             <p>&copy; 2025 Jared Rosales. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <div id="imgModal" class="modal">
+        <span class="cerrar">&times;</span>
+        <img class="modal-contenedor" id="modalImg">
+   </div>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
